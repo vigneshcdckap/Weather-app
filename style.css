@@ -1,0 +1,146 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(HD-wallpaper-sun-rise-sun-water-moring-rise-bright-yellow-nature-trees.jpg);
+    background-size: cover;
+}
+
+.page {
+    width: 21%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Bg-1.webp);
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+}
+button {
+    background-color: white;
+    width: 16%;
+    height: 39px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    margin-left: 2px;
+}
+.page2 {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search_bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#bar_sesrch {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    font-size: 10px;
+    outline: unset;
+    font-family: 'Roboto', sans-serif;
+}
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+.result {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label.city_name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+label.weather {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+label.cloud {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.text {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.label {
+    color: white;
+}
+.hi{
+    color: black;
+}
